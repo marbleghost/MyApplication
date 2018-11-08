@@ -48,6 +48,10 @@ public class TestActivity extends AppCompatActivity {
                     URL url = new URL("http://localhost:8080/quercus-4.0.39/verbindung.php");
                     URLConnection con = url.openConnection();
 
+                    //TODO: Alles was hier drunter grau ist, koennen wir nicht nutzen, da es veraltet ist.
+                    //TODO: Die ALternative waere wohl das, welches ich oben bereits begonne habe (Url url... URLCOnnection)
+                    //TODO: Also muessen wir uns das zusammen basteln das es die selbe Aussage spaeter hat
+
                     //HttpClient httpclient = new DefaultHttpClient();
                     //HttpPost httppost = new HttpPost("http://domain.com/AndroidTest/index.php");
                     //HttpResponse response = httpclient.execute(httppost);
