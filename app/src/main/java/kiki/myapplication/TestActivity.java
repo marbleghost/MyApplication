@@ -14,6 +14,9 @@ import java.io.InputStream;
 import java.io.BufferedReader;
 
 import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -22,7 +25,7 @@ import org.json.JSONException;
 public class TestActivity extends AppCompatActivity {
 
     TextView text;
-    /** Called when the activity is first created. */
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,13 +44,17 @@ public class TestActivity extends AppCompatActivity {
 
                 //Verbindung zum Server
                 try{
-                    HttpClient httpclient = new DefaultHttpClient();
-                    HttpPost httppost = new HttpPost("http://domain.com/AndroidTest/index.php");
-                    HttpResponse response = httpclient.execute(httppost);
-                    HttpEntity entity = response.getEntity();
-                    is = entity.getContent();
+
+                    URL url = new URL("http://localhost:8080/quercus-4.0.39/verbindung.php");
+                    URLConnection con = url.openConnection();
+
+                    //HttpClient httpclient = new DefaultHttpClient();
+                    //HttpPost httppost = new HttpPost("http://domain.com/AndroidTest/index.php");
+                    //HttpResponse response = httpclient.execute(httppost);
+                    //HttpEntity entity = response.getEntity();
+                    //is = entity.getContent();
                 }catch(Exception e){
-                    Log.e("log_tag", "Error in http connection"+e.toString());
+                    Log.e("log_tag", "Verbindungsfehler"+e.toString());
                 }
 
                 //konvertieren der Antwort in einen String
