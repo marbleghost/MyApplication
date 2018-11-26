@@ -26,6 +26,6 @@ public class HaushaltBeitretenActivity extends AppCompatActivity {
         btn_abbruch = findViewById(R.id.btn_abbruch);
         btn_hilfe = findViewById(R.id.btn_hilfe);
         et_haushaltsid = findViewById(R.id.et_haushaltsid);
-        et_passwort = findViewById(R.id.et_passwort);
+        et_passwort = findViewById(R.id.et_passwortlogin);
     }
 }
