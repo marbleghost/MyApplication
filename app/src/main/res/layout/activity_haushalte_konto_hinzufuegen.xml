@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HaushalteKontoHinzufuegenActivity">
+
+    <TextView
+        android:id="@+id/tv_hkh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="71dp"
+        android:text="@string/hkh1"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_hkh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/hkh2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hkh1" />
+
+    <Button
+        android:id="@+id/btn_neuenhaushalterstellen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/neuenhaushalterstellen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hkh2" />
+
+    <Button
+        android:id="@+id/btn_haushaltbeitreten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/exishaushaltbeitreten"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_neuenhaushalterstellen" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="165dp"
+        android:text="@string/abbruch"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_haushaltbeitreten" />
+
+    <Button
+        android:id="@+id/btn_hilfehh"
+        android:layout_width="83dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="156dp"
+        android:text="@string/hilfe"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+</android.support.constraint.ConstraintLayout>

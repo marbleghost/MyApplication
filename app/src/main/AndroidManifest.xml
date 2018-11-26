@@ -45,7 +45,8 @@
         <activity
             android:name=".RezeptErstellenActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".KontoErstellenActivity"></activity>
+        <activity android:name=".KontoErstellenActivity" />
+        <activity android:name=".HaushalteKontoHinzufuegenActivity"></activity>
     </application>
 
 </manifest>
