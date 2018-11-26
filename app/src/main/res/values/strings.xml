@@ -3,4 +3,10 @@
     <string name="hello">hello</string>
     <string name="verbindung">verbindung</string>
     <string name="lesenBtnText">Lesen</string>
+    <string name="tv_haushaltbeitreten1_text">Trete einem bestehenden</string>
+    <string name="tv_haushaltbeitreten2_text">Haushalt bei</string>
+    <string name="haushaltsid">Haushalts-ID</string>
+    <string name="passwort">Passwort</string>
+    <string name="haushaltsid">Haushalts-ID</string>
+    <string name="haushaltbeitreten">Beitreten</string>
 </resources>

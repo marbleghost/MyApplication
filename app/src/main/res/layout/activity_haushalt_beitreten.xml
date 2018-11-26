@@ -6,4 +6,69 @@
     android:layout_height="match_parent"
     tools:context=".HaushaltBeitretenActivity">
 
+    <TextView
+        android:id="@+id/tv_haushaltbeitreten1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:text="@string/tv_haushaltbeitreten1_text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_haushaltbeitreten2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="142dp"
+        android:text="@string/tv_haushaltbeitreten2_text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_haushaltbeitreten1" />
+
+    <EditText
+        android:id="@+id/et_haushaltsid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:hint="@string/haushaltsid"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_haushaltbeitreten2" />
+
+    <EditText
+        android:id="@+id/et_passwort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:hint="@string/passwort"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_haushaltsid" />
+
+    <Button
+        android:id="@+id/btn_beitreten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="147dp"
+        android:text="@string/haushaltbeitreten"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_passwort" />
 </android.support.constraint.ConstraintLayout>
