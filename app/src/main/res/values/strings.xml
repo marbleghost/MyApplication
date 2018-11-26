@@ -21,4 +21,9 @@
     <string name="hkh2">neuen Haushalt hinzu!</string>
     <string name="neuenhaushalterstellen">Neuen Haushalt erstellen</string>
     <string name="exishaushaltbeitreten">Existierendem Haushalt beitreten</string>
+    <string name="erstellehaushalt">Erstelle einen neuen</string>
+    <string name="haushalt">Haushalt</string>
+    <string name="namehaushalt">Name des Haushaltes</string>
+    <string name="anschriftoptional">Anschrift (optional)</string>
+    <string name="beschreibungoptional">Beschreibung (optional)</string>
 </resources>
