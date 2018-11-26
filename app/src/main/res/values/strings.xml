@@ -9,4 +9,6 @@
     <string name="passwort">Passwort</string>
     <string name="haushaltsid">Haushalts-ID</string>
     <string name="haushaltbeitreten">Beitreten</string>
+    <string name="abbruch">Abbruch</string>
+    <string name="hilfe">Hilfe</string>
 </resources>
