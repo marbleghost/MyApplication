@@ -10,4 +10,7 @@
     <string name="haushaltbeitreten">Beitreten</string>
     <string name="abbruch">Abbruch</string>
     <string name="hilfe">Hilfe</string>
+    <string name="benutzername">Benutzername</string>
+    <string name="login">Login</string>
+    <string name="neueskonto">Neues Konto erstellen</string>
 </resources>
