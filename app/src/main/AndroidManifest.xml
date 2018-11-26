@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="TestActivity"
+            android:name=".TestActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrierungActivity" />
+        <activity android:name=".HaushalteActivity" />
+        <activity android:name=".HaushaltErstellenActivity" />
+        <activity android:name=".HaushaltBeitretenActivity" />
+        <activity android:name=".EinkaufslisteActivity" />
+        <activity android:name=".RezeptUebersichtActivity" />
+        <activity android:name=".RezeptErstellenActivity"></activity>
     </application>
 
 </manifest>
