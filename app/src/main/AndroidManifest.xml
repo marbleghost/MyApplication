@@ -21,14 +21,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegistrierungActivity" />
-        <activity android:name=".HaushalteActivity" />
-        <activity android:name=".HaushaltErstellenActivity" />
-        <activity android:name=".HaushaltBeitretenActivity" />
-        <activity android:name=".EinkaufslisteActivity" />
-        <activity android:name=".RezeptUebersichtActivity" />
-        <activity android:name=".RezeptErstellenActivity"></activity>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RegistrierungActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HaushalteActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HaushaltErstellenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HaushaltBeitretenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EinkaufslisteActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RezeptUebersichtActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RezeptErstellenActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
