@@ -27,7 +27,7 @@ public class HaushaltErstellenActivity extends AppCompatActivity {
         et_haushalterstellenpasswort = findViewById(R.id.et_haushalterstellenpasswort);
         et_haushalterstellenbeschreibung = findViewById(R.id.editText3);
         btn_haushalterstellen = findViewById(R.id.btn_haushalterstellen);
-        btn_haushaltbeitreten = findViewById(R.id.btn_haushaltbeitreten);
+        btn_haushaltbeitreten = findViewById(R.id.btn_haushalbeitreten);
 
         btn_haushalterstellen.setOnClickListener(new View.OnClickListener() {
             @Override
