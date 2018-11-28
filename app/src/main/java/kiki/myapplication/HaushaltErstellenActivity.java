@@ -11,7 +11,7 @@ import java.util.Objects;
 public class HaushaltErstellenActivity extends AppCompatActivity {
 
     EditText et_haushalterstellenname, et_haushalterstellenanschrift, et_haushalterstellenbeschreibung, et_haushalterstellenpasswort;
-    Button btn_haushalterstellen;
+    Button btn_haushalterstellen, btn_haushaltbeitreten;
 
     String haushaltname, haushaltanschrift, haushaltbeschreibung, haushaltpasswort;
 
@@ -26,6 +26,7 @@ public class HaushaltErstellenActivity extends AppCompatActivity {
         et_haushalterstellenpasswort = findViewById(R.id.et_haushalterstellenpasswort);
         et_haushalterstellenbeschreibung = findViewById(R.id.editText3);
         btn_haushalterstellen = findViewById(R.id.btn_haushalterstellen);
+        btn_haushaltbeitreten = findViewById(R.id.btn_haushaltbeitreten);
 
         btn_haushalterstellen.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,13 @@ public class HaushaltErstellenActivity extends AppCompatActivity {
                 haushaltanschrift = et_haushalterstellenanschrift.getText().toString();
                 haushaltbeschreibung = et_haushalterstellenbeschreibung.getText().toString();
                 haushaltpasswort = et_haushalterstellenpasswort.getText().toString();
+            }
+        });
+
+        btn_haushaltbeitreten.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
             }
         });
     }

@@ -17,8 +17,6 @@
     <string name="kontoerstellen2">Benutzerkonto!</string>
     <string name="name">Name</string>
     <string name="email">E-Mail</string>
-    <string name="hkh1">Füge deinem Konto einen</string>
-    <string name="hkh2">neuen Haushalt hinzu!</string>
     <string name="neuenhaushalterstellen">Neuen Haushalt erstellen</string>
     <string name="exishaushaltbeitreten">Existierendem Haushalt beitreten</string>
     <string name="erstellehaushalt">Erstelle einen neuen</string>
