@@ -1,7 +1,9 @@
 package kiki.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -27,5 +29,27 @@ public class HaushaltBeitretenActivity extends AppCompatActivity {
         btn_hilfe = findViewById(R.id.btn_hilfe);
         et_haushaltsid = findViewById(R.id.et_haushaltsid);
         et_passwort = findViewById(R.id.et_passwortlogin);
+
+        btn_beitreten.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+        btn_hilfe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HaushaltBeitretenActivity.this, HilfeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_abbruch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }
